@@ -1,8 +1,8 @@
-# Mitigating the Surge in Logistics Costs in Dekoruma's 2023 Operations
+# Mitigating the Surge in Logistics Costs in Home & Living Company's 2023 Operations
 
 ## 1. Project Overview
 
-This project analyzes Dekoruma's order, product, and store data to diagnose the root cause of rising return-logistics costs and declining customer satisfaction. The primary focus is on the widening gap between furniture delivery schedules and assembly team arrivals, and on the frequent installation failures (missing components, damaged panels) that trigger costly reverse logistics. Dekoruma is a technology company founded in 2015 by Dimas Harry Priawan and Aruna Harsa, driving efficiency in Indonesia's home and living industry through an Online-to-Offline (O2O) model built around its Dekoruma Experience Centers (DEC).
+This project analyzes Home & Living Company's order, product, and store data to diagnose the root cause of rising return-logistics costs and declining customer satisfaction. The primary focus is on the widening gap between furniture delivery schedules and assembly team arrivals, and on the frequent installation failures (missing components, damaged panels) that trigger costly reverse logistics. Home & Living Company is a technology company founded in 2015 by Dimas Harry Priawan and Aruna Harsa, driving efficiency in Indonesia's home and living industry through an Online-to-Offline (O2O) model built around its Home & Living Company Experience Centers (DEC).
 
 **Key Objectives:**
 
@@ -13,9 +13,9 @@ This project analyzes Dekoruma's order, product, and store data to diagnose the 
 
 ## 2. Data Sources
 
-- [dekoruma_orders.csv](https://github.com/ElmarLeonard9/temporary_repo_capstone-main/blob/main/data/raw/dekoruma_orders.csv) - Order-level transaction data including order/delivery/installation dates, installer assignment, installation outcome, and assembly fee (300,000 rows).
-- [dekoruma_products.csv](https://github.com/ElmarLeonard9/temporary_repo_capstone-main/blob/main/data/raw/dekoruma_products.csv) - Product catalog with SKU, product name, category, and assembly requirement flag.
-- [dekoruma_stores.csv](https://github.com/ElmarLeonard9/temporary_repo_capstone-main/blob/main/data/raw/dekoruma_stores.csv) - Store and sales channel reference data (Physical Store DECs, Web, Mobile App).
+- [homeliving_orders.csv](https://github.com/ElmarLeonard9/temporary_repo_capstone-main/blob/main/data/raw/homeliving_orders.csv) - Order-level transaction data including order/delivery/installation dates, installer assignment, installation outcome, and assembly fee (300,000 rows).
+- [homeliving_products.csv](https://github.com/ElmarLeonard9/temporary_repo_capstone-main/blob/main/data/raw/homeliving_products.csv) - Product catalog with SKU, product name, category, and assembly requirement flag.
+- [homeliving_stores.csv](https://github.com/ElmarLeonard9/temporary_repo_capstone-main/blob/main/data/raw/homeliving_stores.csv) - Store and sales channel reference data (Physical Store DECs, Web, Mobile App).
 
 ## 3. Technologies Used
 
@@ -40,8 +40,8 @@ This project analyzes Dekoruma's order, product, and store data to diagnose the 
 2. **Installation:**
 
    ```bash
-   git clone [https://github.com/](https://github.com/)ElmarLeonard9/Unsynchronized_Delivery_to_Installation_on_Dekoruma_Analysis
-   cd Unsynchronized_Delivery_to_Installation_on_Dekoruma_Analysis
+   git clone [https://github.com/](https://github.com/)ElmarLeonard9/Unsynchronized_Delivery_to_Installation_on_Home & Living Company_Analysis
+   cd Unsynchronized_Delivery_to_Installation_on_Home & Living Company_Analysis
    pip install -r requirements.txt
    ```
 3. **Database Setup:**
@@ -54,8 +54,8 @@ This project analyzes Dekoruma's order, product, and store data to diagnose the 
 ├── README.md          <- The top-level README for developers using this project.
 |
 ├── data
-│   ├── raw            <- Data from third party sources (dekoruma_orders, dekoruma_products, dekoruma_stores).
-│   └── cleaned        <- The data that has been cleaned (cleaned_dekoruma_data.csv).
+│   ├── raw            <- Data from third party sources (homeliving_orders, homeliving_products, homeliving_stores).
+│   └── cleaned        <- The data that has been cleaned (cleaned_homeliving_data.csv).
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
